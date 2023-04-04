@@ -1,7 +1,12 @@
-rule fatal noodle original legend lunar venture negative plastic camp slim indoor
+pubkey: 8WV1GqjafqijwnEQK7Cgc5zHsMPMJpYR5rYtcznwVyiD
+today veteran verb illness angry winter series help twelve harbor inmate wish
+
+solana config set --url https://metaplex.devnet.rpcpool.com/
+solana config set --keypair ~/.config/solana/devnet.json
+solana-keygen new --outfile ~/.config/solana/devnet.json
 
 solana address
-FapBkGw82AzAfPwLeN73W4KN4UCEzsEDKtcYvWRFg7HY
+8WV1GqjafqijwnEQK7Cgc5zHsMPMJpYR5rYtcznwVyiD
 
 solana balance
 
@@ -14,6 +19,15 @@ Commitment: confirmed
 
 ts-node ./src/candy-machine-v2-cli.ts verify_assets ./assets
 
- /Users/sumit/Desktop/projects/SOLANA/minting_nfts_candymachine/deprecated-clis/~/.config/solana/devnet.json \ 
+ts-node ./src/candy-machine-v2-cli.ts upload -e devnet -k ~/.config/solana/devnet.json -cp ./config.json ./assets  
 
- ts-node ./src/candy-machine-v2-cli.ts upload -e devnet -k ~/.config/solana/devnet.json -cp ./config.json ./assets  
+ts-node ./src/candy-machine-v2-cli.ts verify_upload -e devnet -k ~/.config/solana/devnet.json 
+
+ts-node ./src/candy-machine-v2-cli.ts mint_one_token -e devnet -k ~/.config/solana/devnet.json
+
+initialized config for a candy machine with publickey: EFLpU3zBTEYcJJukmakUtnFBN6f6VxuFkuwZvxdfubuG
+
+solana airdrop 2 8DUtGmscZLUU61VehZAZBenRDzjktV55Jsy8DKmmZx1W --url https://api.devnet.solana.com
+
+    "splTokenAccount": "4JC8rbWiaVzU6DswnmSggo3KBp9Th4FDntjgRYTWkdDQ",
+    "splToken": "tidu1woc9LvCbU66fjAo68CtCpNRy9CACuB4tasSVty",

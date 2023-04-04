@@ -13,7 +13,7 @@
     ]
   },
   "description": "",
-  "seller_fee_basis_points": 500,
+  "seller_fee_basis_points": 1,
   "attributes": [
     { "trait_type": "background", "value": "red" },
     { "trait_type": "eyes", "value": "star-eyes" },
