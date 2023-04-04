@@ -1,0 +1,19 @@
+rule fatal noodle original legend lunar venture negative plastic camp slim indoor
+
+solana address
+FapBkGw82AzAfPwLeN73W4KN4UCEzsEDKtcYvWRFg7HY
+
+solana balance
+
+solana config get
+Config File: C:\Users\sumit\.config\solana\cli\config.yml
+RPC URL: https://metaplex.devnet.rpcpool.com/ 
+WebSocket URL: wss://metaplex.devnet.rpcpool.com/ (computed)
+Keypair Path: ~/.config/solana/devnet.json 
+Commitment: confirmed 
+
+ts-node ./src/candy-machine-v2-cli.ts verify_assets ./assets
+
+ /Users/sumit/Desktop/projects/SOLANA/minting_nfts_candymachine/deprecated-clis/~/.config/solana/devnet.json \ 
+
+ ts-node ./src/candy-machine-v2-cli.ts upload -e devnet -k ~/.config/solana/devnet.json -cp ./config.json ./assets  
